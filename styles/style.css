@@ -119,7 +119,7 @@
     margin-bottom: 50px;
     color: #fff;
     text-transform: uppercase;
-    z-index: 2; 
+    z-index: 2;
 }
 
 .cover__description-text {
@@ -186,7 +186,7 @@
     line-height: 26.4px;
     text-decoration: underline;
     text-decoration-style: solid;
-    z-index: 2; 
+    z-index: 2;
     margin: 48px 40px auto;
 }
 
@@ -289,7 +289,7 @@
 
 .about_logo-image {
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: center;
     z-index: 2;
 }
