@@ -19,6 +19,7 @@
     font-size: 18px;
     display: flex;
     flex-direction: row;
+    text-underline-position: under;
     list-style: circle;
     gap: 36px;
 }
@@ -57,6 +58,7 @@
     font-style: normal;
     display: flex;
     flex-direction: column;
+    text-underline-position: under;
     justify-self: right;
     justify-content: space-around;
     gap: 3px;
@@ -126,18 +128,15 @@
     font-size: 22px;
     line-height: 28px;
     letter-spacing: 90%;
-    word-spacing: 19px;   
+    word-spacing: 19px;
 }
 
-.bet-button { 
+.bet-button {
     border: 1px solid #fff;
     box-sizing: border-box;
     background-color: transparent;
     width: 256px;
     height: 51px;
-}
-
-.bet-button_text {
     font-family: Raleway;
     font-weight: 500;
     font-size: 22px;
@@ -176,8 +175,7 @@
     height: 100%;
     min-height: 596px;
     gap: 25px;
-    /* margin: 74px 0 30px; */
-    list-style: none; 
+    list-style: none;
 }
 
 .card-title {
@@ -218,7 +216,7 @@
 .card-link {
     display: block;
     z-index: 2;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .card_type_film {
@@ -275,7 +273,7 @@
     width: 100%;
     min-width: 1052px;
     min-height: 715px;
-    margin: 120px 24px;
+    margin: 120px auto;
 }
 
 .about_logo {
@@ -289,10 +287,9 @@
     z-index: 0;
 }
 
-.about_logo-image {  
+.about_logo-image {
     background-size: cover;
     background-repeat: no-repeat; 
-    /* display: flex; */
     background-position: center;
     z-index: 2;
 }
