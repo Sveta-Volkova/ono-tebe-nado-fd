@@ -9,7 +9,7 @@
 
 .header_menu {
     justify-self: start;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
 .header_menu-list {
@@ -75,7 +75,6 @@
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    /* min-height: 757px; */
     z-index: 0;
     padding: 154px 50px 0 50px;
 }
@@ -127,7 +126,7 @@
     margin-bottom: 50px;
     color: #fff;
     text-transform: uppercase;
-    z-index: 2; 
+    z-index: 2;
 }
 
 .cover__description-text {
@@ -194,7 +193,7 @@
     line-height: 26.4px;
     text-decoration: underline;
     text-decoration-style: solid;
-    z-index: 2; 
+    z-index: 2;
     margin: 48px 40px auto;
 }
 
@@ -292,7 +291,7 @@
 
 .about_logo-image {
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: center;
     z-index: 2;
 }
@@ -351,7 +350,6 @@
     font-size: 18px;
     flex-direction: column;
     list-style: none;
-    text-underline-position: under;
 }
 
 /* .footer_menu-item */
